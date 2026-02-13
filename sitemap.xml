@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://vanshcz.online/</loc>
+    <lastmod>2026-02-01</lastmod>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://vanshcz.online/viral-jammu</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://vanshcz.online/real</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://vanshcz.online/26jan</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.6</priority>
   </url>
+
   <url>
     <loc>https://vanshcz.online/tamilwin</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.8</priority>
   </url>
+
 </urlset>
