@@ -2,39 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://vanshcz.online/tamil-win</loc>
-    <lastmod>2026-02-01</lastmod>
+    <loc>https://vanshcz.online/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://vanshcz.online/</loc>
-    <lastmod>2026-02-01</lastmod>
-    <priority>0.8</priority>
+    <loc>https://vanshcz.online/tamil-win/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.2</priority>
   </url>
 
   <url>
-    <loc>https://vanshcz.online/viral-jammu</loc>
-    <lastmod>2026-02-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vanshcz.online/tamilwin</loc>
-    <lastmod>2026-02-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vanshcz.online/real</loc>
-    <lastmod>2026-02-01</lastmod>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://vanshcz.online/26jan</loc>
-    <lastmod>2026-02-01</lastmod>
-    <priority>0.5</priority>
+    <loc>https://vanshcz.online/viral-jammu/</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
   </url>
 
 </urlset>
