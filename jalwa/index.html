@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Join Our Exclusive Telegram Channel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            min-height: 100vh;
+            overflow-x: hidden;
+            color: #fff;
+        }
+
+        /* Animated Background Particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: rgba(0, 136, 255, 0.4);
+            border-radius: 50%;
+            animation: float linear infinite;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px 15px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        /* Top Badge */
+        .top-badge {
+            background: linear-gradient(135deg, #ff416c, #ff4b2b);
+            padding: 8px 24px;
+            border-radius: 50px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 20px;
+            animation: pulse-badge 2s ease-in-out infinite;
+            box-shadow: 0 4px 25px rgba(255, 65, 108, 0.5);
+        }
+
+        @keyframes pulse-badge {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        /* Telegram Icon Section */
+        .telegram-icon-wrapper {
+            margin-top: 30px;
+            position: relative;
+        }
+
+        .telegram-icon-circle {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, #0088cc, #00b4ff);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 55px;
+            box-shadow: 0 0 60px rgba(0, 136, 204, 0.6), 0 0 120px rgba(0, 136, 204, 0.3);
+            animation: icon-glow 3s ease-in-out infinite;
+            position: relative;
+            z-index: 2;
+        }
+
+        .ring {
+            position: absolute;
+            border: 2px solid rgba(0, 136, 204, 0.3);
+            border-radius: 50%;
+            animation: ring-expand 3s ease-in-out infinite;
+        }
+
+        .ring:nth-child(2) {
+            width: 150px;
+            height: 150px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: 0s;
+        }
+
+        .ring:nth-child(3) {
+            width: 180px;
+            height: 180px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: 1s;
+        }
+
+        .ring:nth-child(4) {
+            width: 210px;
+            height: 210px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: 2s;
+        }
+
+        @keyframes ring-expand {
+            0%, 100% { opacity: 0.3; transform: translate(-50%, -50%) scale(1); }
+            50% { opacity: 0.8; transform: translate(-50%, -50%) scale(1.1); }
+        }
+
+        @keyframes icon-glow {
+            0%, 100% { box-shadow: 0 0 60px rgba(0, 136, 204, 0.6), 0 0 120px rgba(0, 136, 204, 0.3); }
+            50% { box-shadow: 0 0 80px rgba(0, 136, 204, 0.8), 0 0 160px rgba(0, 136, 204, 0.4); }
+        }
+
+        /* Heading */
+        .main-heading {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .main-heading h1 {
+            font-size: 28px;
+            font-weight: 900;
+            line-height: 1.3;
+            background: linear-gradient(135deg, #fff, #00b4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .main-heading p {
+            margin-top: 10px;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+        }
+
+        /* ===== JOIN BUTTON - CENTER & PROMINENT ===== */
+        .join-section {
+            margin-top: 30px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .join-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            max-width: 380px;
+            padding: 20px 40px;
+            background: linear-gradient(135deg, #0088cc, #00b4ff, #0088cc);
+            background-size: 200% 200%;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 800;
+            text-decoration: none;
+            border-radius: 60px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 40px rgba(0, 136, 204, 0.6), 0 0 80px rgba(0, 180, 255, 0.3);
+            animation: btn-gradient 3s ease infinite, btn-bounce 2s ease-in-out infinite;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .join-btn::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(
+                45deg,
+                transparent,
+                rgba(255, 255, 255, 0.1),
+                transparent
+            );
+            animation: shimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) rotate(45deg); }
+        }
+
+        @keyframes btn-gradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        @keyframes btn-bounce {
+            0%, 100% { transform: translateY(0) scale(1); }
+            50% { transform: translateY(-5px) scale(1.02); }
+        }
+
+        .join-btn:hover {
+            transform: translateY(-3px) scale(1.05) !important;
+            box-shadow: 0 12px 50px rgba(0, 136, 204, 0.8), 0 0 100px rgba(0, 180, 255, 0.5);
+        }
+
+        .join-btn:active {
+            transform: scale(0.98) !important;
+        }
+
+        .join-btn i {
+            font-size: 26px;
+            animation: icon-shake 2s ease-in-out infinite;
+        }
+
+        @keyframes icon-shake {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-10deg); }
+            75% { transform: rotate(10deg); }
+        }
+
+        .arrow-indicator {
+            margin-top: 15px;
+            font-size: 28px;
+            animation: arrow-bounce 1.5s ease-in-out infinite;
+            color: #00b4ff;
+        }
+
+        @keyframes arrow-bounce {
+            0%, 100% { transform: translateY(0); opacity: 1; }
+            50% { transform: translateY(-10px); opacity: 0.5; }
+        }
+
+        .join-subtext {
+            margin-top: 10px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .join-subtext i {
+            color: #00cc44;
+            margin-right: 5px;
+        }
+
+        /* Stats */
+        .stats-row {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 18px 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(0, 136, 204, 0.3);
+        }
+
+        .stat-card .stat-number {
+            font-size: 26px;
+            font-weight: 800;
+            color: #00b4ff;
+        }
+
+        .stat-card .stat-label {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Features */
+        .features {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 16px 20px;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+            animation: slide-in 0.6s ease forwards;
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+
+        .feature-item:nth-child(1) { animation-delay: 0.2s; }
+        .feature-item:nth-child(2) { animation-delay: 0.4s; }
+        .feature-item:nth-child(3) { animation-delay: 0.6s; }
+        .feature-item:nth-child(4) { animation-delay: 0.8s; }
+
+        @keyframes slide-in {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .feature-item:hover {
+            border-color: rgba(0, 136, 204, 0.3);
+            background: rgba(0, 136, 204, 0.05);
+            transform: translateX(5px);
+        }
+
+        .feature-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, rgba(0, 136, 204, 0.2), rgba(0, 180, 255, 0.2));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .feature-text {
+            font-size: 14px;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* Second CTA */
+        .second-cta {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+        }
+
+        .second-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            padding: 16px 30px;
+            background: transparent;
+            color: #00b4ff;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 2px solid #0088cc;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .second-cta-btn:hover {
+            background: rgba(0, 136, 204, 0.1);
+            border-color: #00b4ff;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 25px rgba(0, 136, 204, 0.3);
+        }
+
+        /* Urgency Banner */
+        .urgency-banner {
+            margin-top: 25px;
+            background: linear-gradient(135deg, rgba(255, 65, 108, 0.15), rgba(255, 75, 43, 0.15));
+            border: 1px solid rgba(255, 65, 108, 0.3);
+            border-radius: 14px;
+            padding: 16px 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 380px;
+            animation: urgency-pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes urgency-pulse {
+            0%, 100% { border-color: rgba(255, 65, 108, 0.3); }
+            50% { border-color: rgba(255, 65, 108, 0.7); }
+        }
+
+        .urgency-banner .timer-icon {
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+
+        .urgency-banner p {
+            font-size: 14px;
+            font-weight: 600;
+            color: #ff6b6b;
+        }
+
+        .urgency-banner span {
+            font-weight: 800;
+            color: #fff;
+        }
+
+        /* Online Counter */
+        .online-counter {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .online-dot {
+            width: 10px;
+            height: 10px;
+            background: #00cc44;
+            border-radius: 50%;
+            animation: dot-pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes dot-pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+
+        /* Testimonials */
+        .testimonials {
+            margin-top: 30px;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .testimonials h3 {
+            text-align: center;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .testimonial-card {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 14px;
+            padding: 18px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 16px;
+        }
+
+        .testimonial-name {
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .testimonial-stars {
+            color: #ffd700;
+            font-size: 12px;
+        }
+
+        .testimonial-text {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.5;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 400px) {
+            .main-heading h1 {
+                font-size: 24px;
+            }
+
+            .join-btn {
+                font-size: 18px;
+                padding: 18px 30px;
+            }
+
+            .stat-card .stat-number {
+                font-size: 22px;
+            }
+
+            .telegram-icon-circle {
+                width: 100px;
+                height: 100px;
+                font-size: 45px;
+            }
+        }
+
+        /* Sticky Bottom Bar for Mobile */
+        .sticky-bottom {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15, 12, 41, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 12px 20px;
+            z-index: 100;
+            border-top: 1px solid rgba(0, 136, 204, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sticky-join-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            max-width: 400px;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, #0088cc, #00b4ff);
+            color: #fff;
+            font-size: 16px;
+            font-weight: 800;
+            text-decoration: none;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 25px rgba(0, 136, 204, 0.5);
+        }
+
+        .spacer-bottom {
+            height: 80px;
+        }
+
+        /* Countdown Timer */
+        .countdown {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 8px 14px;
+            text-align: center;
+            min-width: 60px;
+        }
+
+        .countdown-item .num {
+            font-size: 22px;
+            font-weight: 800;
+            color: #ff6b6b;
+        }
+
+        .countdown-item .label {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+        }
+
+        /* Glowing border animation for main button */
+        .glow-wrapper {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            max-width: 380px;
+        }
+
+        .glow-wrapper::before {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(45deg, #0088cc, #00b4ff, #0088cc, #00b4ff);
+            background-size: 400% 400%;
+            border-radius: 63px;
+            animation: glow-rotate 3s linear infinite;
+            z-index: -1;
+            filter: blur(8px);
+            opacity: 0.7;
+        }
+
+        @keyframes glow-rotate {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Members avatars */
+        .members-avatars {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            gap: 0;
+        }
+
+        .members-avatars .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 2px solid #24243e;
+            margin-left: -10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .members-avatars .avatar:first-child { margin-left: 0; }
+        .avatar-1 { background: linear-gradient(135deg, #667eea, #764ba2); }
+        .avatar-2 { background: linear-gradient(135deg, #f093fb, #f5576c); }
+        .avatar-3 { background: linear-gradient(135deg, #4facfe, #00f2fe); }
+        .avatar-4 { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+        .avatar-5 { background: linear-gradient(135deg, #fa709a, #fee140); }
+
+        .members-text {
+            margin-left: 10px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .members-text span {
+            color: #00b4ff;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <!-- Top Badge -->
+        <div class="top-badge">
+            🔥 Limited Time Offer
+        </div>
+
+        <!-- Telegram Icon -->
+        <div class="telegram-icon-wrapper">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="telegram-icon-circle">
+                <i class="fab fa-telegram-plane"></i>
+            </div>
+        </div>
+
+        <!-- Main Heading -->
+        <div class="main-heading">
+            <h1>🚀 Join Our Exclusive<br>Telegram Channel</h1>
+            <p>Get access to premium content, daily updates, and exclusive tips that you won't find anywhere else!</p>
+        </div>
+
+        <!-- Members Avatars -->
+        <div class="members-avatars">
+            <div class="avatar avatar-1">A</div>
+            <div class="avatar avatar-2">R</div>
+            <div class="avatar avatar-3">S</div>
+            <div class="avatar avatar-4">M</div>
+            <div class="avatar avatar-5">K</div>
+            <span class="members-text"><span>10,000+</span> already joined</span>
+        </div>
+
+        <!-- ===== MAIN JOIN BUTTON ===== -->
+        <div class="join-section">
+            <div class="arrow-indicator">👇👇👇</div>
+            <div class="glow-wrapper">
+                <a href="https://t.me/+oq1wS6WoqPRkOTRl" target="_blank" class="join-btn" id="mainJoinBtn">
+                    <i class="fab fa-telegram-plane"></i>
+                    JOIN CHANNEL FREE
+                </a>
+            </div>
+            <div class="join-subtext">
+                <i class="fas fa-lock"></i> 100% FREE • No Spam • Instant Access
+            </div>
+        </div>
+
+        <!-- Online Counter -->
+        <div class="online-counter">
+            <div class="online-dot"></div>
+            <span id="onlineCount">2,847</span> people viewing this page right now
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-row">
+            <div class="stat-card">
+                <div class="stat-number">10K+</div>
+                <div class="stat-label">Members</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Daily Posts</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">4.9⭐</div>
+                <div class="stat-label">Rating</div>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="features">
+            <div class="feature-item">
+                <div class="feature-icon">🎯</div>
+                <div class="feature-text">Daily Premium Content & Updates</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">💎</div>
+                <div class="feature-text">Exclusive Tips & Strategies</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🔔</div>
+                <div class="feature-text">Instant Notifications & Alerts</div>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">🤝</div>
+                <div class="feature-text">Active Community Support 24/7</div>
+            </div>
+        </div>
+
+        <!-- Urgency Banner -->
+        <div class="urgency-banner">
+            <div class="timer-icon">⏰</div>
+            <p>Hurry! Channel may go <span>PRIVATE</span> soon</p>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <div class="num" id="hours">23</div>
+                    <div class="label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="num" id="minutes">59</div>
+                    <div class="label">Mins</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="num" id="seconds">59</div>
+                    <div class="label">Secs</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Second CTA -->
+        <div class="second-cta">
+            <a href="https://t.me/+oq1wS6WoqPRkOTRl" target="_blank" class="second-cta-btn">
+                <i class="fab fa-telegram-plane"></i>
+                Join Now — It's Free!
+            </a>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="testimonials">
+            <h3>💬 What Members Say</h3>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">R</div>
+                    <div>
+                        <div class="testimonial-name">Rahul S.</div>
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">"Best channel I've ever joined! The content quality is amazing and the community is super helpful. Highly recommended! 🔥"</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar" style="background: linear-gradient(135deg, #f093fb, #f5576c);">P</div>
+                    <div>
+                        <div class="testimonial-name">Priya M.</div>
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    </div>
+                </div>
+                <div class="testimonial-text">"I joined last week and already got so much value. The daily updates are a game changer! Don't miss out! 💯"</div>
+            </div>
+        </div>
+
+        <div class="spacer-bottom"></div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 All Rights Reserved</p>
+        </div>
+    </div>
+
+    <!-- Sticky Bottom Join Button -->
+    <div class="sticky-bottom">
+        <a href="https://t.me/+oq1wS6WoqPRkOTRl" target="_blank" class="sticky-join-btn">
+            <i class="fab fa-telegram-plane"></i>
+            JOIN CHANNEL NOW
+        </a>
+    </div>
+
+    <script>
+        // Create Particles
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 30; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDuration = (Math.random() * 10 + 8) + 's';
+                particle.style.animationDelay = Math.random() * 10 + 's';
+                particle.style.width = (Math.random() * 6 + 2) + 'px';
+                particle.style.height = particle.style.width;
+
+                const colors = [
+                    'rgba(0, 136, 204, 0.4)',
+                    'rgba(0, 180, 255, 0.3)',
+                    'rgba(102, 126, 234, 0.3)',
+                    'rgba(255, 65, 108, 0.2)'
+                ];
+                particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+                container.appendChild(particle);
+            }
+        }
+        createParticles();
+
+        // Countdown Timer (24 hours from now, resets daily)
+        function updateCountdown() {
+            const now = new Date();
+            const endOfDay = new Date();
+            endOfDay.setHours(23, 59, 59, 999);
+            const diff = endOfDay - now;
+
+            const hours = Math.floor(diff / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Random online counter
+        function updateOnlineCount() {
+            const base = 2500;
+            const variation = Math.floor(Math.random() * 800);
+            const count = base + variation;
+            document.getElementById('onlineCount').textContent = count.toLocaleString();
+        }
+
+        setInterval(updateOnlineCount, 5000);
+
+        // Button click tracking (optional)
+        document.getElementById('mainJoinBtn').addEventListener('click', function () {
+            // You can add analytics tracking here
+            console.log('Join button clicked!');
+        });
+    </script>
+</body>
+</html>
