@@ -179,8 +179,8 @@ li {
     <div class="header">
         <h1>TamilWin Complete Guide</h1>
         <div class="buttons">
-            <a href="https://vanshcz.com" class="btn btn-login">Login</a>
-            <a href="https://vanshcz.online" class="btn btn-register">Register</a>
+            <a href="#" class="btn btn-login">Login</a>
+            <a href="#" class="btn btn-register">Register</a>
         </div>
     </div>
 
@@ -536,16 +536,28 @@ li {
     </div>
 
     <div class="footer">
-        <p>&copy; 2025 TamilWin Guide. All rights reserved.</p>
+        <p>&copy; 2026 TamilWin Guide. All rights reserved.</p>
         <p>This website is for informational purposes only. We do not own or operate the TamilWin platform.</p>
         <div class="footer-links">
-            <a href="https://vanshcz.onlineviral-jammu">TamilWin Official</a> |
-            <a href="https://vanshcz.online">Tamil Game Login</a> |
-            <a href="https://vanshcz.online">Tamil Win Register</a> |
-            <a href="https://vanshcz.online">Tamil Game Link</a>
+            <a href="#">TamilWin Official</a> |
+            <a href="#">Tamil Game Login</a> |
+            <a href="#">Tamil Win Register</a> |
+            <a href="#">Tamil Game Link</a>
         </div>
     </div>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('TamilWin Guide Loaded');
+        const links = document.querySelectorAll('a[href="#"]');
+        links.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                console.log('Link clicked');
+            });
+        });
+    });
+</script>
 </body>
 </html>
